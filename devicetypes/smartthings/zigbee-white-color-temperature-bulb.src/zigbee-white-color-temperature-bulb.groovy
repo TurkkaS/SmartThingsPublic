@@ -121,8 +121,13 @@ metadata {
 
 		// Ajax Online
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300, 1000", outClusters: "0019", manufacturer: "Ajax Online", model: "CCT", deviceJoinName: "Ajax Light", mnmn: "SmartThings", vid: "generic-color-temperature-bulb-2200K-6500K" // Ajax Online Filament Bulb
-	}
+	
+		// Lidl White Temp E14
+		fingerprint profileId: “0104”, inClusters: “0000, 0003, 0004, 0005, 0006, 0008, 0300, 1000”, outClusters: “000A, 0019”, manufacturer: “_TZ3000_oborybow”, model: “TS0502A”, deviceJoinName: “Lidl Light”, mnmn: “SmartThings”, vid: “generic-color-temperature-bulb-1800K-6500K”
 
+		// Lidl White Temp E27
+		fingerprint profileId: “0104”, inClusters: “0000, 0003, 0004, 0005, 0006, 0008, 0300, 1000”, outClusters: “000A, 0019”, manufacturer: “_TZ3000_49qchf10”, model: “TS0502A”, deviceJoinName: “Lidl Light”, mnmn: “SmartThings”, vid: “generic-color-temperature-bulb-1800K-6500K”
+	}
 	// UI tile definitions
 	tiles(scale: 2) {
 		multiAttributeTile(name: "switch", type: "lighting", width: 6, height: 4, canChangeIcon: true) {
